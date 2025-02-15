@@ -47,3 +47,5 @@ Creating new features to enhance analysis and prediction accuracy.
 - Categorize `estimated_size` into small, medium, large using percentiles.
 - Identify 'high-value jobs' where `estimated_size` is in the top 20%.
 
+  ---
+

@@ -65,9 +65,9 @@ Ensure that the below data can be tracked eitehr through backend platform data o
 
 | Outcome | Decision |
 |---------|----------|
-| **Lead Utilisation & Revenue Increase (`p < 0.05`)** | Roll out the change permanently. |
-| **No Significant Impact (`p > 0.05`)** | Maintain the current allocation of 3 tradies per job. |
-| **Negative Impact (Lead Utilisation Drop, `p < 0.05`)** | Investigate reasons before reverting the change. |
+| **Lead Utilisation & Revenue Increase (p \< 0.05)** | Roll out the change permanently. |
+| **No Significant Impact (p \> 0.05)** | Maintain the current allocation of 3 tradies per job. |
+| **Negative Impact (Lead Utilisation Drop, p \< 0.05)** | Investigate reasons before reverting the change. |
 
 
 ### 4.3 Experiment Monitoring & Reporting

@@ -26,6 +26,13 @@ Tradie Engagement Rate = Percentage of tradies who claim at least one lead
 Time to Job Acceptance = Time taken for a job to be claimed
 Customer Satisfaction (CSAT) Score = Impact on customer experience
 
+### 2.4 Randomisation & Stratification
+
+- To ensure a fair comparison between the control group (3 leads per job) and the test group (4 leads per job), we will use stratified randomisation instead of simple randomisation. This approach ensures an even distribution of key factors that can impact lead utilisation, such as Trade category, Location & Job size. By first grouping jobs into these categories before randomly assigning them to either the control or test group, we achieve a balanced distribution. This prevents biases related to trade type, location, or job size from skewing the results.
+
+- Implementation Methods:
+  - Feature flag tools like Split.io or LaunchDarkly to manage controlled assignment.
+    -Python-based stratified sampling, using functions such as numpy.random.choice.
 
 
 
@@ -56,9 +63,13 @@ Ensure that the below data can be tracked eitehr through backend platform data o
 
 ### 4.2 Expected Outcomes & Interpretation
 
-- Lead Utilisation & Revenue Increase (p < 0.05): Roll out the change permanently.
-- No Significant Impact (p > 0.05): Maintain the current allocation of 3 tradies per job.
-- Negative Impact (Lead Utilisation Drop, p < 0.05): Investigate reasons before reverting the change.
+## 4.2 Expected Outcomes & Interpretation
+
+| Outcome | Decision |
+|---------|----------|
+| **Lead Utilisation & Revenue Increase (p < 0.05)** | Roll out the change permanently. |
+| **No Significant Impact (p > 0.05)** | Maintain the current allocation of 3 tradies per job. |
+| **Negative Impact (Lead Utilisation Drop, p < 0.05)** | Investigate reasons before reverting the change. |
 
 ### 4.3 Experiment Monitoring & Reporting
 - Tableau dashboard to monitor results

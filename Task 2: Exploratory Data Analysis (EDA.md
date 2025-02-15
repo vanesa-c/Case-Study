@@ -1,4 +1,4 @@
-# 1. What Data Preparation Steps Will You Implement?
+# What Data Preparation Steps Will You Implement?
 
 ## 1. Data Cleaning
 
@@ -35,20 +35,15 @@ Ensuring data quality before analysis and modeling.
 Creating new features to enhance analysis and prediction accuracy.
 
 ### a. Time-Based Features
-- Extract:
-  - `hour_of_day`
-  - `day_of_week`
-  - `weekend_flag`  
-  from `time_of_post` to identify trends.
-- Create a peak hour flag:  
-  - `1` for jobs posted between 8 AM - 5 PM.  
-  - `0` otherwise.
+- From `time_of_post` extract the hour, day, week 
+- Create categorisation to identify whether time of posting is in peak hour, off-peak etc
 
 ### b. Supply & Demand Features
 - Tradie availability ratio:  
-- Tradie competition score:  
+- Tradie competition score: 
 
 
-### c. Job Value & Complexity Features
+### c. Job Value Categorisation
 - Categorize `estimated_size` into small, medium, large using percentiles.
-- Compute **revenu
+- Identify 'high-value jobs' where `estimated_size` is in the top 20%.
+

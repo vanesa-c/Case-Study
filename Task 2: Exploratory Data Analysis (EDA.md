@@ -49,3 +49,18 @@ Creating new features to enhance analysis and prediction accuracy.
 
   ---
 
+# Which parameters influence if a job would be accepted?
+
+### Number of Tradies Available – Jobs in areas with a higher number of tradies tend to be accepted more frequently. For example, locations with over 5,000 tradies show an acceptance rate of ~13%, while those with fewer tradies have lower acceptance rates. This suggests increased competition leads to higher job uptake.
+
+### Job Category – Some job categories are more likely to be accepted than others. Categories 3 and 7, for instance, have a higher acceptance rate compared to other categories, indicating certain trades may be in higher demand or have a more engaged workforce.
+
+### Number of Impressions – Jobs with more than 1,000 impressions have a noticeably higher acceptance rate compared to those with fewer views. This suggests that visibility plays a crucial role in whether a job is picked up.
+
+### Estimated Job Size – Medium-sized jobs tend to have a higher acceptance rate than small ones. This indicates that tradies may prefer jobs with greater earning potential or that take more time to complete.
+
+
+
+
+
+-----

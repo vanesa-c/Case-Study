@@ -16,7 +16,14 @@ The product team aims to increase lead utilisation by mandating four leads per j
 
 ### 2.2 Frequentist vs Bayesian Approach
 
-A Frequentist approach is the preferred choice for this A/B test because the goal is to evaluate a one-time decision on whether mandating four leads per job improves lead utilisation. The experiment has clearly defined success metrics (Lead Utilisation Rate, Job Acceptance Rate, Revenue Impact), and the company seeks statistical significance before a full rollout.
+Reccomended to go with Fequentist approach
+Clear, One-Time Decision → The goal is to determine whether mandating four leads per job improves lead utilisation before a full rollout. Frequentist methods provide a definitive "yes" or "no" answer, making them ideal for a one-time decision.
+No Prior Assumptions Needed → Since hipages operates a high-volume marketplace, we can rely purely on observed data without introducing potential bias from subjective priors (which Bayesian requires).
+Large Sample Size → Given the large volume of job postings and leads, we can fix a sample size, ensuring an unbiased test without continuous adjustments.
+
+Bayesian models are more suitable foradaptive decision-making, they require a prior distribution, which can introduce bias if not well-informed. Bayesian models are particularly useful when data is limited or when we need to continuously update probabilities as new data arrives.
+
+
 
 ### 2.3 Define Primary and Secondary Metrics
 

@@ -64,10 +64,15 @@ LIMIT 1
 )
 
 SELECT 
-u.*, 
-m.*
+  m.*,
+  sender.UserID AS SenderID, 
+  sender.UserName AS SenderName,
+  recipient.UserID AS RecipientID, 
+  recipient.UserName AS RecipientName
 FROM Messages m
-LEFT JOIN Users u 
-  ON u.UserID = m.UserIDSender
+LEFT JOIN Users sender 
+    ON sender.UserID = m.UserIDSender
+LEFT JOIN Users recipient 
+    ON recipient.UserID = m.UserIDRecipient
 WHERE m.ThreadID = (SELECT ThreadID FROM ThreadMessageCounts)
-ORDER BY m.timestamp
+ORDER BY m.Timestamp;

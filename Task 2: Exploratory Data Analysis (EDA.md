@@ -1,6 +1,6 @@
 # 1. What Data Preparation Steps Will You Implement?
 
-## Data Cleaning
+## 1. Data Cleaning
 
 Ensuring data quality before analysis and modeling.
 
@@ -28,10 +28,7 @@ Ensuring data quality before analysis and modeling.
   - `estimated_size`
   - `number_of_tradies`
   - `number_of_impressions`
-- Use statistical methods such as:
-  - **Interquartile Range (IQR)**
-  - **Z-score method**
-  - **Winsorization** (if needed)
+- Use statistical methods such as **Z-score method**
 
 ---
 
@@ -51,13 +48,8 @@ Creating new features to enhance analysis and prediction accuracy.
 
 ### b. Supply & Demand Features
 - **Tradie availability ratio**:  
-  \[
-  tradie\_availability = \frac{number\_of\_tradies}{number\_of\_impressions}
-  \]
 - **Tradie competition score**:  
-  \[
-  tradie\_competition = \frac{number\_of\_tradies}{number\_of\_jobs\_in\_region}
-  \]
+
 
 ### c. Job Value & Complexity Features
 - Categorize `estimated_size` into **small, medium, large** using percentiles.

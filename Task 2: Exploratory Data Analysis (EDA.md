@@ -5,11 +5,11 @@
 Ensuring data quality before analysis and modeling.
 
 ### a. Handle Missing Values
-- **Latitude & Longitude**: Fill missing values using regional averages.
-- **Number of Tradies**:  
+- Latitude & Longitude: Fill missing values using regional averages.
+- Number of Tradies:  
   - Impute missing values using the median.  
   - Alternatively, set a default minimum value.  
-- **Category**:  
+- Category:  
   - Assign `"Unknown"` if missing.  
   - Alternatively, use mode imputation.
 
@@ -28,9 +28,7 @@ Ensuring data quality before analysis and modeling.
   - `estimated_size`
   - `number_of_tradies`
   - `number_of_impressions`
-- Use statistical methods such as **Z-score method**
-
----
+- Use statistical methods such as Z-score method
 
 ## 2. Feature Engineering
 
@@ -42,15 +40,15 @@ Creating new features to enhance analysis and prediction accuracy.
   - `day_of_week`
   - `weekend_flag`  
   from `time_of_post` to identify trends.
-- Create a **peak hour flag**:  
-  - `1` for jobs posted between **8 AM - 5 PM**.  
+- Create a peak hour flag:  
+  - `1` for jobs posted between 8 AM - 5 PM.  
   - `0` otherwise.
 
 ### b. Supply & Demand Features
-- **Tradie availability ratio**:  
-- **Tradie competition score**:  
+- Tradie availability ratio:  
+- Tradie competition score:  
 
 
 ### c. Job Value & Complexity Features
-- Categorize `estimated_size` into **small, medium, large** using percentiles.
+- Categorize `estimated_size` into small, medium, large using percentiles.
 - Compute **revenu

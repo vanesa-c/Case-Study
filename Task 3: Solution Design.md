@@ -22,9 +22,9 @@ A frequentist approach is recommended for this analysis based on the following f
 - The primary goal is to determine whether mandating four leads per job improves lead utilisation before rolling it out fully.  
 - Frequentist methods provide a definitive "yes" or "no" answer based on hypothesis testing, making them well-suited for a one-time decision rather than an ongoing adjustment.  
 
-#### 2. No Prior Assumptions Required  
-- Since hipages operates a high-volume marketplace, we can rely purely on observed data without needing to introduce subjective prior beliefs.  
-- Bayesian methods require a prior distribution, which, if not well-informed, could introduce bias.  
+#### 2.Lack of historical data
+- Given that this is hipages' first initiative to increase lead counts, there is a lack of prior internal data or established benchmarks to inform the expected outcomes. 
+- Frequentist approaches do not rely on prior assumptions and instead derive conclusions directly from the observed data. 
 
 #### 3. Large Sample Size Availability  
 - Given the large volume of job postings and leads, we can define a fixed sample size in advance, ensuring an unbiased test.  

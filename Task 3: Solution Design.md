@@ -16,12 +16,25 @@ The product team aims to increase lead utilisation by mandating four leads per j
 
 ### 2.2 Frequentist vs Bayesian Approach
 
-Reccomended to go with Fequentist approach
-Clear, One-Time Decision → The goal is to determine whether mandating four leads per job improves lead utilisation before a full rollout. Frequentist methods provide a definitive "yes" or "no" answer, making them ideal for a one-time decision.
-No Prior Assumptions Needed → Since hipages operates a high-volume marketplace, we can rely purely on observed data without introducing potential bias from subjective priors (which Bayesian requires).
-Large Sample Size → Given the large volume of job postings and leads, we can fix a sample size, ensuring an unbiased test without continuous adjustments.
+A frequentist approach is recommended for this analysis based on the following factors:  
 
-Bayesian models are more suitable foradaptive decision-making, they require a prior distribution, which can introduce bias if not well-informed. Bayesian models are particularly useful when data is limited or when we need to continuously update probabilities as new data arrives.
+#### 1. Clear, One-Time Decision  
+- The primary goal is to determine whether mandating four leads per job improves lead utilisation before rolling it out fully.  
+- Frequentist methods provide a definitive "yes" or "no" answer based on hypothesis testing, making them well-suited for a one-time decision rather than an ongoing adjustment.  
+
+#### 2. No Prior Assumptions Required  
+- Since hipages operates a high-volume marketplace, we can rely purely on observed data without needing to introduce subjective prior beliefs.  
+- Bayesian methods require a prior distribution, which, if not well-informed, could introduce bias.  
+
+#### 3. Large Sample Size Availability  
+- Given the large volume of job postings and leads, we can define a fixed sample size in advance, ensuring an unbiased test.  
+- Frequentist methods work well when a sufficiently large dataset is available, eliminating the need for continuous adjustments mid-experiment.  
+
+
+### Why Not Bayesian?  
+- Better for adaptive decision-making: Bayesian methods are more suitable when decisions need to be continuously updated as new data arrives rather than making a single, definitive decision.  
+- Requires prior distributions: Bayesian models require assumptions about prior probabilities, which can introduce bias if not well-informed.  
+- More useful for low-data scenarios: Bayesian methods are ideal when data is limited and we need to incorporate prior knowledge to improve estimations.  
 
 
 

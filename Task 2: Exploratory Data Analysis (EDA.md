@@ -37,14 +37,16 @@ Creating new features to enhance analysis and prediction accuracy.
 - From `time_of_post` extract the hour, day, week 
 - Create categorisation to identify whether time of posting is in peak hour, off-peak etc
 
-#### b. Supply & Demand Features
-- Tradie availability ratio:  
-- Tradie competition score: 
+#### b. Job Context & Historical Acceptance
+To better understand job acceptance likelihood, enrich the dataset with historical insights and contextual factors:
+- Benchmark acceptance rates: Calculate acceptance rates for similar jobs (same category) within the past 7, 30, and 90 days in the same region. This helps identify trends in job demand and tradie responsiveness over time.
+- Urgency indicators: Incorporate an urgency flag based on the timeframe specified by the customer for job completion. Additionally, scan job titles and descriptions for keywords such as "urgent" or "emergency" to further refine urgency classification.
+- Market competitiveness: Assess job supply and demand by counting the number of active job postings in the same category and region within the past X hours. A higher number of concurrent postings may indicate increased competition among jobs for tradie availability.
+- Time-to-acceptance metric: Track how quickly jobs are accepted, providing insights into job desirability and response times across different job types and locations.
 
 
-#### c. Job Value Categorisation
-- Categorize `estimated_size` into small, medium, large using percentiles.
-- Identify 'high-value jobs' where `estimated_size` is in the top 20%.
+#### c. Location Based Features
+- Enrich data with location-based features by doing reversed geocoding: Assign broader region labels (e.g., suburb, city, state)
 
   ---
 

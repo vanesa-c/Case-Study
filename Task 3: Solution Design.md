@@ -18,7 +18,7 @@ The product team aims to increase lead utilisation by mandating four leads per j
 
 A frequentist approach is recommended for this analysis based on the following factors:  
 
-#### 1. Clear, One-Time Decision  
+#### 1.One-Time Decision  
 - The primary goal is to determine whether mandating four leads per job improves lead utilisation before rolling it out fully.  
 - Frequentist methods provide a definitive "yes" or "no" answer based on hypothesis testing, making them well-suited for a one-time decision rather than an ongoing adjustment.  
 
@@ -33,8 +33,8 @@ A frequentist approach is recommended for this analysis based on the following f
 
 #### Why Not Bayesian?  
 - Better for adaptive decision-making: Bayesian methods are more suitable when decisions need to be continuously updated as new data arrives rather than making a single, definitive decision.  
-- Requires prior distributions: Bayesian models require assumptions about prior probabilities, which can introduce bias if not well-informed.  
-- More useful for low-data scenarios: Bayesian methods are ideal when data is limited and we need to incorporate prior knowledge to improve estimations.  
+- Bayesian models require assumptions about prior probabilities, which can introduce bias if not well-informed.  
+- More useful for low sample size scenarios: Bayesian methods are ideal when data is limited and we need to incorporate prior knowledge to improve estimations.  
 
 
 
@@ -44,7 +44,7 @@ A frequentist approach is recommended for this analysis based on the following f
 - Lead Utilisation Rate = (Leads Accepted / Leads Offered)
 
 #### Secondary Metrics:
-- Time to Job Acceptance = Time taken for a job to be claimed
+- Time to Job Acceptance = Time taken for a job to be claimed. More tradies vying for the same job, may increase competition and cause tradies to take more time to evaluate the oppotunity
 - Customer Satisfaction (CSAT) Score = Impact on customer experience
 
 ### 2.4 Randomisation & Stratification
@@ -59,10 +59,10 @@ To ensure a fair comparison between the control group (three leads per job) and 
 
 To determine the required sample size, we will conduct a power analysis to ensure the experiment is sufficiently powered to detect a meaningful effect.
 
-- Significance Level (α): 0.05 (5%)  
-- Power (1 - β): 0.8 (80%)  
+- Significance Level: 0.05 (5%)  
+- Power: 0.8 (80%)  
 - Baseline Lead Utilisation Rate: X% (To be determined from historical data)  
-- Minimum Detectable Effect (MDE): Y% (Smallest meaningful increase in lead utilisation)  
+- Minimum Detectable Effect (MDE):  Y% (The smallest difference the experiment aims to identify for it to be considered successful; to be determined based on commercial targets).
 
 ---
 

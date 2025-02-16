@@ -61,7 +61,7 @@ Creating new features to enhance analysis and prediction accuracy.
 - Category 3 (39%) and Category 9 (29%) have the highest acceptance rates, likely due to higher demand or a more responsive workforce in those trades.  
 - Category 5 (16%) has the lowest acceptance rate, suggesting labour shortages or lower interest in that type of job.
 
-## 3. Number of Impressions  
+### 3. Number of Impressions  
 - Jobs with higher visibility tend to have better acceptance rates:  
   - 37% of jobs with over 5,000 impressions are accepted.  
   - In contrast, jobs with fewer than 500 impressions have an acceptance rate of just 14%.  

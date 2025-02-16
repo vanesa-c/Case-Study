@@ -1,4 +1,4 @@
-# What Data Preparation Steps Will You Implement?
+![image](https://github.com/user-attachments/assets/3da52c87-291b-4a32-a34d-e193dfc37d0d)# What Data Preparation Steps Will You Implement?
 
 ## 1. Data Cleaning
 
@@ -51,34 +51,44 @@ Creating new features to enhance analysis and prediction accuracy.
 
 # Which parameters influence if a job would be accepted?
 
-### 1. Number of Tradies Available
-- Jobs in areas with a higher number of tradies tend to be accepted more frequently. For example, locations with over 5,000 tradies show an acceptance rate of ~13%, while those with fewer tradies have lower acceptance rates. This suggests increased competition leads to higher job uptake.
+## 1. Time of Day & Day of the Week  
+- Acceptance rates are highest in the afternoon and evening (40-50%), suggesting that tradies are more likely to accept jobs later in the day.  
+- Morning and early morning have the lowest acceptance rates (8-15%), indicating that jobs posted earlier may take longer to be accepted.
 
-### 2. Job Category 
-- Some job categories are more likely to be accepted than others. Categories 3 and 7, for instance, have a higher acceptance rate compared to other categories, indicating certain trades may be in higher demand or have a more engaged workforce.
+## 2. Job Category  
+- Category 3 (39%) and Category 9 (29%) have the highest acceptance rates, likely due to higher demand or a more responsive workforce in those trades.  
+- Category 5 (16%) has the lowest acceptance rate, suggesting labour shortages or lower interest in that type of job.
 
-### 3. Number of Impressions 
-- Jobs with more than 1,000 impressions have a noticeably higher acceptance rate compared to those with fewer views. This suggests that visibility plays a crucial role in whether a job is picked up.
+## 3. Number of Impressions  
+- Jobs with higher visibility tend to have better acceptance rates:  
+  - 37% of jobs with over 5,000 impressions are accepted.  
+  - In contrast, jobs with fewer than 500 impressions have an acceptance rate of just 14%.  
+- This reinforces the idea that job visibility significantly impacts acceptance likelihood.
 
-### 4. Estimated Job Size 
-- Medium-sized jobs tend to have a higher acceptance rate than small ones. This indicates that tradies may prefer jobs with greater earning potential or that take more time to complete.
+## 4. Job Size  
+- Medium-sized jobs have a higher acceptance rate (37%) compared to smaller jobs (16%), indicating that tradies may prioritise jobs with greater earning potential or more steady work.  
+- Smaller jobs may be less attractive due to lower profitability.
+
+## 5. Location & Market Competition  
+- Cities with a high concentration of jobs, such as Sydney and Melbourne, show better acceptance rates, suggesting that a more active workforce leads to higher job uptake.  
+- This supports the idea that tradie availability and market competition influence acceptance rates.
 
 ---
 
 # Can We Predict If a Job Will Be Accepted?
 
-Yes, a predictive model can be developed using logistic regression or machine learning techniques (e.g., decision trees, random forests) to estimate whether a job will be accepted. However, with the available data alone, predictive accuracy is unlikely to be high due to missing key factors.
+Yes, a predictive model can estimate job acceptance likelihood using techniques such as logistic regression, decision trees, or random forests. However, predictive accuracy may be limited by missing key factors.
 
-### Key Predictive Factors
-- Number of tradies available – Higher competition increases the likelihood of acceptance.
-- Job category – Some trades have a higher acceptance rate than others.
-- Number of impressions – Greater visibility improves acceptance probability.
-- Job size – Medium-sized jobs tend to be accepted more frequently.
-- Time of posting – Jobs posted during early morning hours see higher acceptance rates.
+### Key Predictive Factors:
+- Number of tradies available – Higher competition increases the likelihood of acceptance.  
+- Job category – Some trades have a higher acceptance rate than others.  
+- Number of impressions – Greater visibility improves acceptance probability.  
+- Job size – Medium-sized jobs tend to be accepted more frequently.  
+- Time of posting – Jobs posted later in the day are more likely to be accepted.
 
 
 ###  Limitations & Accuracy Constraints
-We are missing additional variables that may influence predictive accuracy. We don;t have information about macro economic factors, pricing or information about the job urgency and complexity.
+We are missing additional variables that may influence predictive accuracy. We don't have information about macro economic factors, pricing or information about the job urgency and complexity.
 - Tradie availability and workload – The dataset does not account for whether a tradie is already booked.
 - Job urgency and complexity – Some jobs may require immediate attention, influencing acceptance rates.
 - Pricing and payment terms – Tradies may reject jobs due to low budgets or payment concerns.

@@ -1,6 +1,6 @@
 # Task 2: Exploratory Data Analysis (EDA)
 
-## Whatdatapreparation steps will you implement?
+## What data preparation steps will you implement?
 
 ### 1. Data Cleaning
 

@@ -52,25 +52,25 @@ To better understand job acceptance likelihood, enrich the dataset with historic
 
 ## Which parameters influence if a job would be accepted?
 
-### 1. Time of Day & Day of the Week  
+#### 1. Time of Day & Day of the Week  
 - Acceptance rates are highest in the afternoon and evening (40-50%), suggesting that tradies are more likely to accept jobs later in the day.  
 - Morning and early morning have the lowest acceptance rates (8-15%), indicating that jobs posted earlier may take longer to be accepted.
 
-### 2. Job Category  
+#### 2. Job Category  
 - Category 3 (39%) and Category 9 (29%) have the highest acceptance rates, likely due to higher demand or a more responsive workforce in those trades.  
 - Category 5 (16%) has the lowest acceptance rate, suggesting labour shortages or lower interest in that type of job.
 
-### 3. Number of Impressions  
+#### 3. Number of Impressions  
 - Jobs with higher visibility tend to have better acceptance rates:  
   - 37% of jobs with over 5,000 impressions are accepted.  
   - In contrast, jobs with fewer than 500 impressions have an acceptance rate of just 14%.  
 - This reinforces the idea that job visibility significantly impacts acceptance likelihood.
 
-### 4. Job Size  
+#### 4. Job Size  
 - Medium-sized jobs have a higher acceptance rate (37%) compared to smaller jobs (16%), indicating that tradies may prioritise jobs with greater earning potential or more steady work.  
 - Smaller jobs may be less attractive due to lower profitability.
 
-### 5. Location & Market Competition  
+#### 5. Location & Market Competition  
 - Cities with a high concentration of jobs, such as Sydney and Melbourne, show better acceptance rates, suggesting that a more active workforce leads to higher job uptake.  
 - This supports the idea that tradie availability and market competition influence acceptance rates.
 

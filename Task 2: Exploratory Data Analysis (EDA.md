@@ -7,9 +7,7 @@
 Ensuring data quality before analysis and modeling.
 
 #### a. Handle Missing Values
-- Null Values
-  - Impute missing values using the median.  
-  - Assign `"Unknown"` if missing.  
+  - Impute missing values using the median or assign `"Unknown"` if missing.  
 
 #### b. Remove Duplicates
 - Ensure each job post is unique by checking the following attributes:

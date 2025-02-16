@@ -32,14 +32,19 @@ Ensuring data quality before analysis and modeling.
 Creating new features to enhance analysis and prediction accuracy.
 
 #### a. Time-Based Features
-- From `time_of_post` extract the hour, day, week 
+- From `time_of_post` extract the hour, day, week & month 
 - Create categorisation to identify whether time of posting is in peak hour, off-peak etc
 
 #### b. Job Context & Historical Acceptance
+
 To better understand job acceptance likelihood, enrich the dataset with historical insights and contextual factors:
+
 - Benchmark acceptance rates: Calculate acceptance rates for similar jobs (same category) within the past 7, 30, and 90 days in the same region. This helps identify trends in job demand and tradie responsiveness over time.
+ 
 - Urgency indicators: Incorporate an urgency flag based on the timeframe specified by the customer for job completion. Additionally, scan job titles and descriptions for keywords such as "urgent" or "emergency" to further refine urgency classification.
+
 - Market competitiveness: Assess job supply and demand by counting the number of active job postings in the same category and region within the past X hours. A higher number of concurrent postings may indicate increased competition among jobs for tradie availability.
+  
 - Time-to-acceptance metric: Track how quickly jobs are accepted, providing insights into job desirability and response times across different job types and locations.
 
 
@@ -55,7 +60,7 @@ To better understand job acceptance likelihood, enrich the dataset with historic
 - Morning and early morning have the lowest acceptance rates (8-15%), indicating that jobs posted earlier may take longer to be accepted.
 
 #### 2. Job Category  
-- Category 3 (39%) and Category 9 (29%) have the highest acceptance rates, likely due to higher demand or a more responsive workforce in those trades.  
+- Category 3 (39%) and Category 9 (29%) have the highest acceptance rates, likely due to higher supply of tradies or a more responsive workforce in those industries.  
 - Category 5 (16%) has the lowest acceptance rate, suggesting labour shortages or lower interest in that type of job.
 
 #### 3. Number of Impressions  

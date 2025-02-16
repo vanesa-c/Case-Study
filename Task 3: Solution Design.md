@@ -2,7 +2,7 @@
 
 ## 1.0 Introduction
 
-The product team aims to increase lead utilisation by mandating four leads per job instead of the current three. To validate this hypothesis, we will design an A/B test using a Frequentist approach to measure the impact of this change on key business and user experience metrics. This document outlines the necessary preparatory work, technical execution details, and analysis approach for the experiment.
+The product team aims to increase lead utilisation by increasing the number of job leads per job from three to four. To validate this hypothesis, we will design an A/B test using a Frequentist approach to measure the impact of this change on key business and user experience metrics. This document outlines the necessary preparatory work, technical execution details and analysis approach for the experiment.
 
 ---
 
@@ -18,11 +18,11 @@ The product team aims to increase lead utilisation by mandating four leads per j
 
 A frequentist approach is recommended for this analysis based on the following factors:  
 
-#### 1.One-Time Decision  
+#### 1. One-Time Decision  
 - The primary goal is to determine whether mandating four leads per job improves lead utilisation before rolling it out fully.  
 - Frequentist methods provide a definitive "yes" or "no" answer based on hypothesis testing, making them well-suited for a one-time decision rather than an ongoing adjustment.  
 
-#### 2.Lack of historical data
+#### 2. Lack of historical data
 - Given that this is hipages' first initiative to increase lead counts, there is a lack of prior internal data or established benchmarks to inform the expected outcomes. 
 - Frequentist approaches do not rely on prior assumptions and instead derive conclusions directly from the observed data. 
 

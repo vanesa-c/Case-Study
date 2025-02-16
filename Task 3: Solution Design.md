@@ -31,7 +31,7 @@ A frequentist approach is recommended for this analysis based on the following f
 - Frequentist methods work well when a sufficiently large dataset is available, eliminating the need for continuous adjustments mid-experiment.  
 
 
-### Why Not Bayesian?  
+#### Why Not Bayesian?  
 - Better for adaptive decision-making: Bayesian methods are more suitable when decisions need to be continuously updated as new data arrives rather than making a single, definitive decision.  
 - Requires prior distributions: Bayesian models require assumptions about prior probabilities, which can introduce bias if not well-informed.  
 - More useful for low-data scenarios: Bayesian methods are ideal when data is limited and we need to incorporate prior knowledge to improve estimations.  

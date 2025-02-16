@@ -7,7 +7,6 @@
 Ensuring data quality before analysis and modeling.
 
 #### a. Handle Missing Values
-- Latitude & Longitude: Fill missing values using regional averages.
 - Null Values
   - Impute missing values using the median.  
   - Assign `"Unknown"` if missing.  
@@ -28,6 +27,7 @@ Ensuring data quality before analysis and modeling.
   - `number_of_tradies`
   - `number_of_impressions`
 - Use statistical methods such as Z-score method
+- One method to deal with outliers is to apply a maximum or minimum value, based on understanding of domain
 
 ### 2. Feature Engineering
 

@@ -99,4 +99,4 @@ We are missing additional variables that may influence predictive accuracy. We d
 -----
 ## Which visualisations would best communicate the findings?
 
-[View the Tableau Dashboard](https://public.tableau.com/views/Book1_17396864916990/HighPagesAcceptanceRateInfluences?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[View the Tableau Dashboard]([https://public.tableau.com/views/Book1_17396864916990/HighPagesAcceptanceRateInfluences?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link](https://public.tableau.com/shared/?:display_count=n&:origin=viz_share_link))

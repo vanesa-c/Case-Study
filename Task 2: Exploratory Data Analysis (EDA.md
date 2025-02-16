@@ -8,12 +8,9 @@ Ensuring data quality before analysis and modeling.
 
 #### a. Handle Missing Values
 - Latitude & Longitude: Fill missing values using regional averages.
-- Number of Tradies:  
+- Null Values
   - Impute missing values using the median.  
-  - Alternatively, set a default minimum value.  
-- Category:  
   - Assign `"Unknown"` if missing.  
-  - Alternatively, use mode imputation.
 
 #### b. Remove Duplicates
 - Ensure each job post is unique by checking the following attributes:
@@ -23,7 +20,7 @@ Ensuring data quality before analysis and modeling.
   - `category`
 
 #### c. Convert Datatypes
-- Ensure `time_of_post` is properly formatted as `YYYY-MM-DD HH:MM:SS` for accurate time-based analysis.
+- Ensure `time_of_post` is properly formatted as `YYYY-MM-DD HH:MM:SS`
 
 #### d. Detect and Handle Outliers
 - Identify extreme values in:
